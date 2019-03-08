@@ -3,6 +3,7 @@
 #include <iostream>
 #include <conio.h>
 #include <string>
+#include <iomanip>
 using namespace std;
 
 int main ()
@@ -61,7 +62,7 @@ int main ()
 	cout << endl;
 
 	cout << "Total Sale Amount" << endl;
-	cout << (ticketPrice1 * numberOfTicketsSold1) + (ticketPrice2 * numberOfTicketsSold2) + (ticketPrice3 * numberOfTicketsSold3) + (ticketPrice4 * numberOfTicketsSold4) << endl;
+	cout << setprecision(3) << (ticketPrice1 * numberOfTicketsSold1) + (ticketPrice2 * numberOfTicketsSold2) + (ticketPrice3 * numberOfTicketsSold3) + (ticketPrice4 * numberOfTicketsSold4) << endl;
 
 
 

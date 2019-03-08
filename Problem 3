@@ -1,0 +1,63 @@
+// This is a C++ program. This program inputs the interest on a credit’s card unpaid balance using the average daily. 
+
+#include <iostream>
+#include <conio.h>
+#include <string>
+#include <iomanip>
+using namespace std;
+
+int main ()
+
+
+{
+
+	double netBalance;
+	double payment;
+	double d1;
+	double d2;
+	double interestpermonth;
+	double averageDailyBalance;
+	
+	cout << "Net Balance" << endl;
+	cin >> netBalance;
+
+	cout << endl;
+
+	cout << "Payment" << endl;
+	cin >> payment; 
+
+	cout << endl;
+
+	cout << "Number of days in the billing cycle" << endl; 
+	cin >> d1; 
+	
+	cout << endl;
+
+	cout << "Number of days payment is made before billing cycle" << endl; 
+	cin >> d2;
+	 
+	cout << endl;
+
+	cout << "Average Daily Balance" << ' ' << "="; 
+	cout <<  (netBalance * d1 - payment * d2) / d1;
+	
+	cout << endl;
+
+	cout << "Average Daily Balance" << ' ' << "=";
+	cin >> averageDailyBalance;
+	
+	cout << endl;
+
+	cout << "Interest per month" << endl;
+	cin >> interestpermonth;
+	
+	cout << endl;
+	
+	cout << "Interest" << endl;
+	cout << setprecision(3) << (averageDailyBalance * interestpermonth) << endl;
+
+
+	getch ();
+	return 0;
+
+}

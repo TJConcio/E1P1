@@ -16,7 +16,6 @@ int main ()
 	double mass;
 	double density;
 	
-
 	cout << "Mass in grams" << endl;
 	cin >> mass;
 
@@ -28,10 +27,8 @@ int main ()
 	cout << endl;
 
 	cout << "Volume in cubic centimeters" << ' ' << "=" << ' '; 
-	cout << mass / density << endl;
+	cout << setprecision(3) << mass / density << endl;
 	
-
-
 	getch ();
 	return 0;
 

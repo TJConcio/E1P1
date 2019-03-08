@@ -1,0 +1,38 @@
+// This is a C++ program. This program inputs the mass and densit and outputs the density
+
+
+
+#include <iostream>
+#include <conio.h>
+#include <string>
+#include <iomanip>
+using namespace std;
+
+int main ()
+
+
+{
+
+	double mass;
+	double density;
+	
+
+	cout << "Mass in grams" << endl;
+	cin >> mass;
+
+	cout << endl;
+
+	cout << "Density in grams per cubic centimeter" << endl;
+	cin >> density; 
+
+	cout << endl;
+
+	cout << "Volume in cubic centimeters" << ' ' << "=" << ' '; 
+	cout << setprecision (4) << mass / density << endl;
+	
+
+
+	getch ();
+	return 0;
+
+}

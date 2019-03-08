@@ -1,0 +1,71 @@
+// This is a C++ program. This program will solve the number of tickets sold and the total sale amount.
+
+#include <iostream>
+#include <conio.h>
+#include <string>
+using namespace std;
+
+int main ()
+
+{
+
+	double ticketPrice1;
+	double ticketPrice2;
+	double ticketPrice3;
+	double ticketPrice4;
+	int numberOfTicketsSold1;
+	int numberOfTicketsSold2;
+	int numberOfTicketsSold3;
+	int numberOfTicketsSold4;
+
+
+	cout << "Ticket Price" << endl;
+	cin >> ticketPrice1;
+	cout << "Number Of Tickets Sold" << endl;
+	cin >> numberOfTicketsSold1; 
+	cout << "Sale amount" << ' ' << "=" << ' '; 
+	cout << ticketPrice1 * numberOfTicketsSold1 << endl;
+	
+	cout << endl;
+
+	cout << "Ticket Price" << endl;
+	cin >> ticketPrice2;
+	cout << "Number Of Tickets Sold" << endl;
+	cin >> numberOfTicketsSold2; 
+	cout << "Sale amount" << ' ' << "=" << ' '; 
+	cout << ticketPrice2 * numberOfTicketsSold2 << endl;
+
+	cout << endl;
+
+	cout << "Ticket Price" << endl;
+	cin >> ticketPrice3;
+	cout << "Number Of Tickets Sold" << endl;
+	cin >> numberOfTicketsSold3; 
+	cout << "Sale amount" << ' ' << "=" << ' '; 
+	cout << ticketPrice3 * numberOfTicketsSold3 << endl;
+
+	cout << endl;
+
+	cout << "Ticket Price" << endl;
+	cin >> ticketPrice4;
+	cout << "Number Of Tickets Sold" << endl;
+	cin >> numberOfTicketsSold4; 
+	cout << "Sale amount" << ' ' << "=" << ' '; 
+	cout << ticketPrice4 * numberOfTicketsSold4 << endl;
+	
+	cout << endl;
+
+	cout << "Total Number of Tickets Sold" << endl;
+	cout << numberOfTicketsSold1 + numberOfTicketsSold2 + numberOfTicketsSold3 + numberOfTicketsSold4 << endl;
+
+	cout << endl;
+
+	cout << "Total Sale Amount" << endl;
+	cout << (ticketPrice1 * numberOfTicketsSold1) + (ticketPrice2 * numberOfTicketsSold2) + (ticketPrice3 * numberOfTicketsSold3) + (ticketPrice4 * numberOfTicketsSold4) << endl;
+
+
+
+	getch ();
+	return 0; 
+
+}

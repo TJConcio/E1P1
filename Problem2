@@ -28,7 +28,7 @@ int main ()
 	cout << endl;
 
 	cout << "Volume in cubic centimeters" << ' ' << "=" << ' '; 
-	cout << setprecision (4) << mass / density << endl;
+	cout << mass / density << endl;
 	
 
 
